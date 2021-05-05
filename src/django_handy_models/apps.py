@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class DjangoUsefulModelsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'django_useful_models'
+    name = 'django_handy_models'
