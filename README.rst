@@ -57,6 +57,12 @@ add to INSTALLED\_APPS in Django project's settings.py
         'django_handy_models',
     ]
 
+Migrate database
+
+::
+
+    python manage.py migrate
+
 Load data from fixtures
 
 ::
