@@ -16,7 +16,7 @@ class Currency(models.Model):
     name_plural = models.CharField(max_length=255, null=True) # remove null=True,
     symbol_exonym = models.CharField(max_length=100, null=True)
     symbol_endonym = models.CharField(max_length=100, null=True)
-    iso_4217 = models.CharField(max_length=10, null=True, blank=True, unique=True)
+    iso_4217 = models.CharField(max_length=10, unique=True)
     # abbre name and fraction
 
     class Meta:
